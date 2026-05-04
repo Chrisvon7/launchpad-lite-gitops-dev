@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: launchpad-lite-demo
+  labels:
+    app.kubernetes.io/name: launchpad-lite-demo
+    app.kubernetes.io/part-of: launchpad-lite
+spec:
+  type: ClusterIP
+  selector:
+    app.kubernetes.io/name: launchpad-lite-demo
+  ports:
+    - name: http
+      port: 80
+      targetPort: http
