@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: tekton-hello
-          image: docker.io/chrisvon7/tekton-hello:dev
+          image: docker.io/artcrafter/tekton-hello:dev
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
