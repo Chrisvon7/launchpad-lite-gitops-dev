@@ -4,7 +4,7 @@ resources:
   - deployment.yaml
   - service.yaml
 images:
-  - name: docker.io/chrisvon7/tekton-hello
+  - name: docker.io/artcrafter/tekton-hello
     newTag: dev
 commonLabels:
   app.kubernetes.io/managed-by: launchpad-lite
