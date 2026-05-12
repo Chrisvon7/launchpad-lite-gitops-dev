@@ -8,3 +8,5 @@ images:
     newTag: v0.1.0-20260505175830
 commonLabels:
   app.kubernetes.io/managed-by: launchpad-lite
+  - name: docker.io/artcrafter/tekton-hello-backend
+    newTag: v0.0.0-20260512134500
