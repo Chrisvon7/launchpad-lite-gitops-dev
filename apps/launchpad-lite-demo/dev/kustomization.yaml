@@ -6,6 +6,6 @@ resources:
 images:
   - name: docker.io/artcrafter/tekton-hello
     newName: docker.io/artcrafter/tekton-hello-backend
-    newTag: v0.0.0-20260513093445
+    newTag: v0.0.0-20260513122501
 commonLabels:
   app.kubernetes.io/managed-by: launchpad-lite
